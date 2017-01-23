@@ -33,10 +33,10 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
     private ViewPager vp_main;
     private MyHorizontalScrollView mhsv_main;
     private ImageView iv_change;
-    //    private String tabs[] = new String[]{"热点热点热点热点热点热点", "精", "军事军事", "娱乐娱乐娱乐娱乐", "糗事", "美女美女美女美女美女美女", "体育体育体育", "国际国际国际国"};
+//        private String tabs[] = new String[]{"热点热点热点热点热点热点", "精", "军事军事", "娱乐娱乐娱乐娱乐", "糗事", "美女美女美女美女美女美女", "体育体育体育", "国际国际国际国"};
 //    private String tabs[] = new String[]{"热点热点热点热点热点热点", "精选精选精选精选精选精选", "军事军事军事军事军事军事", "娱乐娱乐娱乐娱乐娱乐娱乐", "糗事糗事糗事糗事糗事糗事", "美女美女美女美女美女美女", "体育体育体育体育体育体育", "国际国际国际国际国际国际"};
-    private String tabs[] = new String[]{"热点", "精选", "军事", "娱乐", "糗事", "美女", "体育", "国际", "科技", "美术", "视频", "图片"};
-    //    private String tabs[] = new String[]{"热点", "精选精", "军", "娱", "糗事糗事", "美", "体育体", "国际国", "科技科技技", "美术", "视频频频频", "图片"};
+//    private String tabs[] = new String[]{"热点", "精选", "军事", "娱乐", "糗事", "美女", "体育", "国际", "科技", "美术", "视频", "图片"};
+        private String tabs[] = new String[]{"热点", "精选精", "军", "娱", "糗事糗事", "美", "体育体", "国际国", "科技科技技", "美术", "视频频频频", "图片"};
     private ArrayList<TextView> tvs = new ArrayList<TextView>();
 
     @Override

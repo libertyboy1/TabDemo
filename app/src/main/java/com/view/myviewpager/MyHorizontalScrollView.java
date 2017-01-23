@@ -48,7 +48,6 @@ public class MyHorizontalScrollView extends View {
     private int checkTextColor = CHECK_TEXT_COLOR;//已选中字体颜色
     private int normalTextColor = NORMAL_TEXT_COLOR;//未选中字体颜色
 
-
     public interface OnCheckChangedListener {
         void onCheckChangedListener(int position);
     }
